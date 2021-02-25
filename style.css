@@ -1,0 +1,90 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            letter-spacing: .3rem;
+            font-family: 'Comfortaa', cursive;
+            font-size: 5rem;
+            user-select: none;
+            background-color: #283747;
+            text-align: center;
+        }
+
+        .styling {
+            font-size: 12rem;
+            font-family: 'Comfortaa', cursive;
+            color: #fff;
+        }
+
+        .animate {
+            animation: animate-jump .5s ease-in-out;
+        }
+
+        p{
+            color: #EC7063;
+            font-size: 3rem;
+            font-family: 'Comfortaa', cursive;
+            letter-spacing: 1rem;
+        }
+
+        @keyframes animate-jump {
+            0% {
+                transform: translateY(0);
+                text-shadow: 0 0 0;
+            }
+
+            50% {
+                transform: translateY(-5rem);
+                text-shadow: 0 0 4rem yellow, 0 0 10rem #fff, 0 0 20rem #fff;
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width:970px){
+            html{
+                font-size: 50%;
+            }
+        }
+
+        @media (max-width:780px){
+            html{
+                font-size: 40%;
+            }
+        }
+
+        @media (max-width:580px){
+            html{
+                font-size: 30%;
+            }
+        }
+
+        @media (max-width:480px){
+            html{
+                font-size: 25%;
+            }
+        }
+
+        @media (max-width:380px){
+            html{
+                font-size: 20%;
+            }
+        }
