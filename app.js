@@ -1,4 +1,4 @@
-let stringDisplay = prompt('Input text here (MAX char is 10 & MIN char is 5) ');
+let stringDisplay = prompt('Press OK or input text here (MAX char is 10 & MIN char is 5) ');
 
 const isEmpty = (str) => {
     if(str === "" || str.match(/^ *$/) || str.length <= 5){
