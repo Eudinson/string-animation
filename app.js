@@ -25,7 +25,7 @@ const createP = document.createElement('p');
 createP.style.marginBottom = "3rem";
 
 createP.innerText = "Animating each character of a string";
-createH5.innerText = "Press f5 to input new text"
+createH5.innerText = "Refresh or press f5 to input new text"
 
 body.appendChild(createH5);
 body.appendChild(createP);
